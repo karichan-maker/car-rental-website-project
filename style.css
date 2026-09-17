@@ -1,0 +1,326 @@
+/* navigation section  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation nav {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+.nav-section {
+    display: flex;
+}
+
+.nav a:hover {
+    color: rgb(187, 141, 141);
+    border: 2px solid black;
+    /* height: 32px; */
+    /* border-radius: 20px; */
+}
+
+.nav-section::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5kyN8dOnX30rVKYIFkvTXU0YQpGWveN5wnWacz0a9A&s=10') no-repeat center center/cover;
+    height: 100px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+nav #logo-img {
+    height: 44px;
+    width: 44px;
+    /* border: ; */
+}
+
+.nav a {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav {
+    list-style: none;
+    padding: 12px 1px;
+    margin: 0px 9px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    color: sienna;
+    background-color: yellow;
+}
+
+/* =================================hero section======================================================== */
+.hero {
+    /* border:2px solid red; */
+    margin-top: 74px;
+    margin-left: 30px;
+    height: 785px;
+}
+
+.hero-content h1 {
+    font-size: 5.5rem;
+}
+
+
+.primary-btn a {
+    padding: 30px 30px;
+    display: inline-block;
+    flex-direction: column;
+    font-size: 5rem;
+    border: 2px solid red;
+    text-decoration: none;
+    background-color: rgb(222, 180, 180);
+    margin: 9px 64px;
+
+}
+
+.primary-btn a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.hero-image {
+    display: inline;
+
+
+}
+
+.hero-image img {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    height: 500px;
+    width: 50%;
+
+
+}
+
+/* =================booking section=============== */
+
+.booking-section {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    border: 2px solid red;
+    padding: 4px 5px;
+    margin: 4px 5px;
+    height: 380px;
+
+
+
+}
+
+button[type="submit"] {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+.booking-box p {
+    text-decoration: underline;
+}
+
+#submit {
+    /* margin:3px 4px;
+    padding:4px 5px; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.booking-box .booking-item {
+    margin: 3px 4px;
+    padding: 4px 5px;
+    align-items: center;
+
+}
+
+/* =================================car section =========================================== */
+
+.car-section {
+    border: 2px solid red;
+}
+.section-heading{
+     padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       font-size: 25px;
+       padding-right: 8px;
+
+}
+.section-heading div a{
+    color: black;
+    display: inline-block;
+}
+.section-heading  div a:hover{
+    color:darksalmon;
+    transform: scale(1.4);
+}
+
+
+.car-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin-left: 29px;
+    margin-right: 20px;
+    /* grid-template-rows:500px 500px; */
+    /* grid-auto-rows: 500px; */
+}
+
+
+
+.car-card {
+    border: 2px solid red;
+    height: 555px;
+    overflow: hidden;
+}
+
+.car-img {
+    height: 250px;
+    width: auto;
+    /* overflow: hidden; */
+}
+
+.car-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.slection-heading a {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.car-info {
+    padding: 20px;
+    margin-top: auto;
+        font-size: 555px;
+        color: darksalmon;
+    
+}
+
+.car-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.car-title h3 {
+    font-size: 4rem;
+
+}
+.car-title span{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+}
+.car-details{
+
+    display: flex;
+    gap: 12px;
+    margin: 15px 0;
+    
+    font-size: 12px;
+        font-size: 2.5rem;
+}
+.car-botton{
+    /* border: 2px solid rgb(235, 234, 194); */
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       font-size: 25px;
+
+}
+.car-bottom strong {
+    font-size: 25px;
+     align-items: center;
+    
+
+}
+
+.car-botton a {
+    font-weight: bold;
+    text-decoration: underline;
+     align-items: center;
+     font-size: 3rem;
+     color: black;
+}
+.car-botton a:hover{
+    color:darksalmon;
+    transform: scale(1.4);
+}
+
+/* ===========================car categorise ============================== */
+.categories-section{
+    border: 9px solid red;
+    /* height: 1000px; */
+
+}
+.categorise-grid{
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+    grid-gap:1rem;
+}
+.categories-card{
+
+    border: 5px solid yellow;
+height:auto;
+overflow:hidden;
+}
+.categories-card img{
+    height: 250px;
+    width: 100%;
+    object-fit:cover ;
+}
+
+
+/* utlity property */
+.primary-font {
+    font-size:2.5rem;
+}
+
+.little-tittle {
+    font-size: 5.5rem;
+    text-decoration: underline;
+}
+
+.secondary-font {
+    font-size: 2rem;
+}
