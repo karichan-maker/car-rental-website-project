@@ -309,6 +309,17 @@ overflow:hidden;
     width: 100%;
     object-fit:cover ;
 }
+/* ============================service section======================= */
+.service-section{
+    border:2px solid green;
+}
+.service-grid{
+    display: flex;
+}
+.service-box{
+    border:3px solid black;
+    font-size: 2rem;
+}
 
 
 /* utlity property */
@@ -324,3 +335,14 @@ overflow:hidden;
 .secondary-font {
     font-size: 2rem;
 }
+.small-title{
+    color:darkslateblue;
+}
+
+    /* SECTION HEADINGS */
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
