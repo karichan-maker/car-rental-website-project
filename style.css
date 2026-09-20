@@ -24,7 +24,7 @@
 
 .nav a:hover {
     color: rgb(187, 141, 141);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* height: 32px; */
     /* border-radius: 20px; */
 }
@@ -67,7 +67,7 @@ nav a {
     position: absolute;
     top: 11px;
     right: 11px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
 }
 
@@ -94,7 +94,7 @@ nav a {
     display: inline-block;
     flex-direction: column;
     font-size: 5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-decoration: none;
     background-color: rgb(222, 180, 180);
     margin: 9px 64px;
@@ -128,7 +128,7 @@ nav a {
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 4px 5px;
     margin: 4px 5px;
     height: 380px;
@@ -166,9 +166,9 @@ button[type="submit"] {
 
 /* =================================car section =========================================== */
 
-.car-section {
-    border: 2px solid red;
-}
+/* .car-section{
+     border: 2px solid red; 
+} */
 .section-heading{
      padding-top: 4px;
     display: flex;
@@ -201,7 +201,7 @@ button[type="submit"] {
 
 
 .car-card {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 555px;
     overflow: hidden;
 }
@@ -286,7 +286,8 @@ button[type="submit"] {
 
 /* ===========================car categorise ============================== */
 .categories-section{
-    border: 9px solid red;
+    /* border: 9px solid red; */
+    padding-top: 20px;
     /* height: 1000px; */
 
 }
@@ -300,7 +301,7 @@ button[type="submit"] {
 }
 .categories-card{
 
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
 height:auto;
 overflow:hidden;
 }
@@ -311,16 +312,138 @@ overflow:hidden;
 }
 /* ============================service section======================= */
 .service-section{
-    border:2px solid green;
+    /* border:2px solid green; */
+    background-color: beige;
 }
 .service-grid{
     display: flex;
 }
 .service-box{
-    border:3px solid black;
+    /* border:3px solid black; */
     font-size: 2rem;
 }
 
+/* =========================working process======================= */
+.working-process{
+    /* border:2px solid red; */
+    padding-top: 2rem;
+    background-color: antiquewhite;
+}
+.working-heading{
+    display:block;
+    text-align: center;
+
+
+}
+.working-heading h2{
+    font-size: 2rem;
+}
+.working-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.working-box{
+    border: 3px solid black;
+    height: 3rem;
+    width: 3rem;
+}
+
+/* ======================about the drovon on ================= */
+.about-drive-on{
+    /* border:3px solid green; */
+    height:auto;
+    background-color: rgb(173, 218, 218);
+    padding-top: 10px;
+}
+.about-drive-grid{
+display: grid;
+grid-template-columns: 2fr 2fr;
+grid-gap:10px;
+
+
+}
+#about-driven-on-img {
+    height:auto;
+    width: 100%;
+
+}
+#about-driven-on-img img{
+    height:100%;
+    width: 100%;
+
+}
+.about-driven-on-box .about-number{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 4rcap;
+}
+.start-journey{
+    
+    /* border:3px solid red; */
+    background-color:rgb(37, 35, 35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+#head{
+    font-size: 2rem;
+}
+#rent-btn{
+    font-size: 1.5rem;
+}
+#rent-btn:hover{
+    color: brown;
+    transform: scale(1.2);
+}
+
+
+
+ #about-btn {
+
+    display: flex;
+    font-size: 1.5rem;
+    background-color: black;
+    
+    width: 80px;
+    height: 60px;
+    /* border: 3px solid gray; */
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+#about-btn:hover {
+
+    color: gray;
+    transform: scale(1.2);
+}
+.footer{
+    /* border:4px solid gray; */
+    color:rgb(243, 245, 244);
+    background-color:rgb(37, 35, 35);
+    padding-top: 30px;
+
+}
+.footer-grid{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.footer-box{
+    /* border:3px solid yellow; */
+    width: 350px;
+    padding:10px 10px;
+}
 
 /* utlity property */
 .primary-font {
